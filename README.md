@@ -1,4 +1,6 @@
-# PokemonBattleAngular
+# pokemon-battle-angular
+
+> This is the Angular implementation to the [pokemon-battle project](https://github.com/vanderleisilva/pokemon-battle)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.0.
 
