@@ -5,12 +5,16 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './/app-routing.module';
 
 import { SelectionComponent } from './selection/selection.component';
+import { BattleComponent } from './battle/battle.component';
+import { EndComponent } from './end/end.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    SelectionComponent
+    SelectionComponent,
+    BattleComponent,
+    EndComponent
   ],
   imports: [
     BrowserModule,
