@@ -1,6 +1,6 @@
 <div class="row">
   <div *ngFor="let player of players" class="col-md-3 col-xs-6">
-    <div (click)="select(player)" class="thumbnail">
+    <div class="thumbnail" routerLink="/battle/{{player.name}}" >
         	<div class="title">
         		<h3>{{player.name}}</h3>
 	        	<p>
@@ -13,7 +13,7 @@
 			<img :src="player.avatar" />
 		</div>
 		<div class="caption">
-		<ul title="Attacks" v-if="player.attacks" class="list-group">
+		<ul title="Attacks" *ngIf="player.attacks" class="list-group">
 		  <li *ngFor="let attack of player.attacks" class="list-group-item">
 		  	<span class="attack-name">{{attack.name}}:</span>
 		  	<span title="Type" class="label label-default">{{attack.type}}</span>

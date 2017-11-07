@@ -6,7 +6,7 @@ import { EndComponent }   from './end/end.component';
 
 const routes: Routes = [
   { path: 'selection', component: SelectionComponent },
-  { path: 'battle', component: BattleComponent },
+  { path: 'battle/:pokemon', component: BattleComponent },
   { path: 'end', component: EndComponent },
   { path: '**',   redirectTo: 'selection' },
 ];
