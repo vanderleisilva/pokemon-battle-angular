@@ -7,6 +7,7 @@ import { AppRoutingModule } from './/app-routing.module';
 import { SelectionComponent } from './selection/selection.component';
 import { BattleComponent } from './battle/battle.component';
 import { EndComponent } from './end/end.component';
+import { HeaderComponent } from './header/header.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { EndComponent } from './end/end.component';
     AppComponent,
     SelectionComponent,
     BattleComponent,
-    EndComponent
+    EndComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
