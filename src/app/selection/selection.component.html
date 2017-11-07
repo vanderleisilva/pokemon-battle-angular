@@ -13,14 +13,14 @@
 			<img :src="player.avatar" />
 		</div>
 		<div class="caption">
-		<ul title="Attacks" *ngIf="player.attacks" class="list-group">
-		  <li *ngFor="let attack of player.attacks" class="list-group-item">
-		  	<span class="attack-name">{{attack.name}}:</span>
-		  	<span title="Type" class="label label-default">{{attack.type}}</span>
-		  	<span class="label label-danger">Power: {{attack.power}}</span>
-		  	<span title="Accuracy" class="label label-warning">Acc.: {{attack.accuracy}}</span>
-		  </li>
-		</ul>
+			<ul title="Attacks" *ngIf="player.attacks" class="list-group">
+			  <li *ngFor="let attack of player.attacks" class="list-group-item">
+			  	<span class="attack-name">{{attack.name}}:</span>
+			  	<span title="Type" class="label label-default">{{attack.type}}</span>
+			  	<span class="label label-danger">Power: {{attack.power}}</span>
+			  	<span title="Accuracy" class="label label-warning">Acc.: {{attack.accuracy}}</span>
+			  </li>
+			</ul>
 		</div>
     </div>
   </div>

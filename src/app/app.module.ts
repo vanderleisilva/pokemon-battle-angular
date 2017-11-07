@@ -8,6 +8,7 @@ import { SelectionComponent } from './selection/selection.component';
 import { BattleComponent } from './battle/battle.component';
 import { EndComponent } from './end/end.component';
 import { HeaderComponent } from './header/header.component';
+import { ActionsComponent } from './battle/actions/actions.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { HeaderComponent } from './header/header.component';
     SelectionComponent,
     BattleComponent,
     EndComponent,
-    HeaderComponent
+    HeaderComponent,
+    ActionsComponent
   ],
   imports: [
     BrowserModule,
