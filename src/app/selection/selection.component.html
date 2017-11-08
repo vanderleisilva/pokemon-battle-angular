@@ -10,7 +10,7 @@
 			</p>
         	</div>
 		<div class="container-image">
-			<img :src="player.avatar" />
+			<img src="{{api + player.avatar}}" />
 		</div>
 		<div class="caption">
 			<ul title="Attacks" *ngIf="player.attacks" class="list-group">
